@@ -35,7 +35,7 @@
         [_menuButton addSubview:_menuArrow];
         
         //Init tableview
-        CGRect tableViewFrame = CGRectMake(_mainScreenBounds.size.width/ 7 * 2, _mainScreenBounds.origin.y, _mainScreenBounds.size.width / 7 * 3, _mainScreenBounds.size.height + 300 - 64 - 150 );
+        CGRect tableViewFrame = CGRectMake(_mainScreenBounds.size.width/ 7 * 2, _mainScreenBounds.origin.y, _mainScreenBounds.size.width / 7 * 3, _mainScreenBounds.size.height*3/7 );
         _tableView = [[WWMTableView alloc]initWithParam:tableViewFrame items:items configuration:_configuration selectedIndex:0];
         
         
@@ -53,7 +53,7 @@
 
 -(void)showMenu
 {
-    UIView* headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, 300)];
+    UIView* headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, 65)];
     [_tableView setTableHeaderView:headView];
     [_tableView reloadData];
     
@@ -63,12 +63,12 @@
     
     //Animation for tableview
     CGRect tempFrame = _tableView.frame;
-    tempFrame.origin.y = -self.items.count * self.configuration.cellHeight - 300;
+    tempFrame.origin.y = -self.items.count * self.configuration.cellHeight;
     _tableView.frame = tempFrame;
     
     [UIView animateWithDuration:0.5 animations:^{
         CGRect tempFrame = _tableView.frame;
-        tempFrame.origin.y = - 300;
+        tempFrame.origin.y = 0;
         _tableView.frame = tempFrame;
         _tableView.contentOffset = CGPointMake(0, -10);
     } completion:^(BOOL finished) {
