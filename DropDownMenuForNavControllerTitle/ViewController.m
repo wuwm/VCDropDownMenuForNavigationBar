@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *items = @[@"1",@"2",@"3"];
+    WWMDropDownMenu *menu = [[WWMDropDownMenu alloc]
+                             init:CGRectMake(0.0, 0.0, 300, 44)
+                             title:@"Example"
+                             items:items
+                             containerView:self.view
+                             selectedIndex:0];
+    self.navigationItem.titleView = menu;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WWMTableViewCell.h
 //  DropDownMenuForNavControllerTitle
 //
 //  Created by weiming wu on 3/9/16.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "WWMDropDownMenu.h"
 
-@interface ViewController : UIViewController
-
+@interface WWMTableViewCell : UITableViewCell
 
 @end
-

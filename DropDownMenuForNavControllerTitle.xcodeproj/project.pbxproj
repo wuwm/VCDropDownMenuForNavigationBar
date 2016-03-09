@@ -15,6 +15,14 @@
 		943A53921C8FF4C400C6A3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943A53901C8FF4C400C6A3F6 /* LaunchScreen.storyboard */; };
 		943A539D1C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943A539C1C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleTests.m */; };
 		943A53A81C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943A53A71C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleUITests.m */; };
+		943A53B81C8FF9B600C6A3F6 /* WWMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943A53B71C8FF9B600C6A3F6 /* WWMTableView.m */; };
+		943A53BB1C90132400C6A3F6 /* WWMMenuConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 943A53BA1C90132400C6A3F6 /* WWMMenuConfiguration.m */; };
+		943A53BD1C90210F00C6A3F6 /* WWMDropDown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 943A53BC1C90210F00C6A3F6 /* WWMDropDown.bundle */; };
+		943A53C11C90223300C6A3F6 /* arrow_down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 943A53BE1C90223300C6A3F6 /* arrow_down_icon.png */; };
+		943A53C21C90223300C6A3F6 /* arrow_down_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943A53BF1C90223300C6A3F6 /* arrow_down_icon@2x.png */; };
+		943A53C31C90223300C6A3F6 /* arrow_down_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943A53C01C90223300C6A3F6 /* arrow_down_icon@3x.png */; };
+		943A53C91C90319100C6A3F6 /* WWMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 943A53C81C90319100C6A3F6 /* WWMTableViewCell.m */; };
+		943A53CC1C90370200C6A3F6 /* WWMDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 943A53CB1C90370200C6A3F6 /* WWMDropDownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		943A53A31C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuForNavControllerTitleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943A53A71C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownMenuForNavControllerTitleUITests.m; sourceTree = "<group>"; };
 		943A53A91C8FF4C400C6A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943A53B61C8FF9B600C6A3F6 /* WWMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWMTableView.h; path = DropDownMenuForNavControllerTitle/WWMTableView.h; sourceTree = "<group>"; };
+		943A53B71C8FF9B600C6A3F6 /* WWMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWMTableView.m; path = DropDownMenuForNavControllerTitle/WWMTableView.m; sourceTree = "<group>"; };
+		943A53B91C90132400C6A3F6 /* WWMMenuConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMMenuConfiguration.h; sourceTree = "<group>"; };
+		943A53BA1C90132400C6A3F6 /* WWMMenuConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMMenuConfiguration.m; sourceTree = "<group>"; };
+		943A53BC1C90210F00C6A3F6 /* WWMDropDown.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WWMDropDown.bundle; sourceTree = "<group>"; };
+		943A53BE1C90223300C6A3F6 /* arrow_down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_down_icon.png; path = WWMDropDown.bundle/arrow_down_icon.png; sourceTree = "<group>"; };
+		943A53BF1C90223300C6A3F6 /* arrow_down_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow_down_icon@2x.png"; path = "WWMDropDown.bundle/arrow_down_icon@2x.png"; sourceTree = "<group>"; };
+		943A53C01C90223300C6A3F6 /* arrow_down_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow_down_icon@3x.png"; path = "WWMDropDown.bundle/arrow_down_icon@3x.png"; sourceTree = "<group>"; };
+		943A53C71C90319100C6A3F6 /* WWMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMTableViewCell.h; sourceTree = "<group>"; };
+		943A53C81C90319100C6A3F6 /* WWMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMTableViewCell.m; sourceTree = "<group>"; };
+		943A53CA1C90370200C6A3F6 /* WWMDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMDropDownMenu.h; sourceTree = "<group>"; };
+		943A53CB1C90370200C6A3F6 /* WWMDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMDropDownMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,7 @@
 		943A53761C8FF4C400C6A3F6 = {
 			isa = PBXGroup;
 			children = (
+				943A53B51C8FF50300C6A3F6 /* WWMDropDownMenu */,
 				943A53811C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitle */,
 				943A539B1C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleTests */,
 				943A53A61C8FF4C400C6A3F6 /* DropDownMenuForNavControllerTitleUITests */,
@@ -138,6 +159,25 @@
 				943A53A91C8FF4C400C6A3F6 /* Info.plist */,
 			);
 			path = DropDownMenuForNavControllerTitleUITests;
+			sourceTree = "<group>";
+		};
+		943A53B51C8FF50300C6A3F6 /* WWMDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				943A53C71C90319100C6A3F6 /* WWMTableViewCell.h */,
+				943A53C81C90319100C6A3F6 /* WWMTableViewCell.m */,
+				943A53BE1C90223300C6A3F6 /* arrow_down_icon.png */,
+				943A53BF1C90223300C6A3F6 /* arrow_down_icon@2x.png */,
+				943A53C01C90223300C6A3F6 /* arrow_down_icon@3x.png */,
+				943A53B61C8FF9B600C6A3F6 /* WWMTableView.h */,
+				943A53B71C8FF9B600C6A3F6 /* WWMTableView.m */,
+				943A53B91C90132400C6A3F6 /* WWMMenuConfiguration.h */,
+				943A53BA1C90132400C6A3F6 /* WWMMenuConfiguration.m */,
+				943A53BC1C90210F00C6A3F6 /* WWMDropDown.bundle */,
+				943A53CA1C90370200C6A3F6 /* WWMDropDownMenu.h */,
+				943A53CB1C90370200C6A3F6 /* WWMDropDownMenu.m */,
+			);
+			name = WWMDropDownMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +283,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943A53C11C90223300C6A3F6 /* arrow_down_icon.png in Resources */,
 				943A53921C8FF4C400C6A3F6 /* LaunchScreen.storyboard in Resources */,
 				943A538F1C8FF4C400C6A3F6 /* Assets.xcassets in Resources */,
+				943A53BD1C90210F00C6A3F6 /* WWMDropDown.bundle in Resources */,
+				943A53C31C90223300C6A3F6 /* arrow_down_icon@3x.png in Resources */,
 				943A538D1C8FF4C400C6A3F6 /* Main.storyboard in Resources */,
+				943A53C21C90223300C6A3F6 /* arrow_down_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +315,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				943A538A1C8FF4C400C6A3F6 /* ViewController.m in Sources */,
+				943A53BB1C90132400C6A3F6 /* WWMMenuConfiguration.m in Sources */,
 				943A53871C8FF4C400C6A3F6 /* AppDelegate.m in Sources */,
+				943A53CC1C90370200C6A3F6 /* WWMDropDownMenu.m in Sources */,
+				943A53C91C90319100C6A3F6 /* WWMTableViewCell.m in Sources */,
 				943A53841C8FF4C400C6A3F6 /* main.m in Sources */,
+				943A53B81C8FF9B600C6A3F6 /* WWMTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
