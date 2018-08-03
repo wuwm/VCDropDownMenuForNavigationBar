@@ -5,7 +5,5 @@
 
 ## 演示
 
-<p align="center" >
-  <img src="Demo.gif" title="" float=left>
-</p>
+![](Demo.gif)
 
